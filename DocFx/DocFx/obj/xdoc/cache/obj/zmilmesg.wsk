@@ -1,0 +1,520 @@
+id: DocFx
+language: CSharp
+name:
+  Default: DocFx
+qualifiedName:
+  Default: DocFx
+type: Assembly
+modifiers: {}
+items:
+- id: DocFx
+  commentId: N:DocFx
+  language: CSharp
+  name:
+    CSharp: DocFx
+    VB: DocFx
+  nameWithType:
+    CSharp: DocFx
+    VB: DocFx
+  qualifiedName:
+    CSharp: DocFx
+    VB: DocFx
+  type: Namespace
+  assemblies:
+  - DocFx
+  modifiers: {}
+  items:
+  - id: DocFx.Math
+    commentId: T:DocFx.Math
+    language: CSharp
+    name:
+      CSharp: Math
+      VB: Math
+    nameWithType:
+      CSharp: Math
+      VB: Math
+    qualifiedName:
+      CSharp: DocFx.Math
+      VB: DocFx.Math
+    type: Class
+    assemblies:
+    - DocFx
+    namespace: DocFx
+    source:
+      id: Math
+      path: C:\Git\DocFx\DocFx\DocFx\Math.cs
+      startLine: 6
+    summary: "\nThe main Math class.\nContains all methods for performing basic math functions.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Math
+        VB: Public Class Math
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: DocFx.Math.Add(System.Int32,System.Int32)
+      commentId: M:DocFx.Math.Add(System.Int32,System.Int32)
+      language: CSharp
+      name:
+        CSharp: Add(Int32, Int32)
+        VB: Add(Int32, Int32)
+      nameWithType:
+        CSharp: Math.Add(Int32, Int32)
+        VB: Math.Add(Int32, Int32)
+      qualifiedName:
+        CSharp: DocFx.Math.Add(System.Int32, System.Int32)
+        VB: DocFx.Math.Add(System.Int32, System.Int32)
+      type: Method
+      assemblies:
+      - DocFx
+      namespace: DocFx
+      source:
+        id: Add
+        path: C:\Git\DocFx\DocFx\DocFx\Math.cs
+        startLine: 12
+      summary: "\nAdds two integers and returns the result.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static int Add(int a, int b)
+          VB: Public Shared Function Add(a As Integer, b As Integer) As Integer
+        parameters:
+        - id: a
+          type: System.Int32
+        - id: b
+          type: System.Int32
+        return:
+          type: System.Int32
+      overload: DocFx.Math.Add*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: DocFx.Math.Add(System.Double,System.Double)
+      commentId: M:DocFx.Math.Add(System.Double,System.Double)
+      language: CSharp
+      name:
+        CSharp: Add(Double, Double)
+        VB: Add(Double, Double)
+      nameWithType:
+        CSharp: Math.Add(Double, Double)
+        VB: Math.Add(Double, Double)
+      qualifiedName:
+        CSharp: DocFx.Math.Add(System.Double, System.Double)
+        VB: DocFx.Math.Add(System.Double, System.Double)
+      type: Method
+      assemblies:
+      - DocFx
+      namespace: DocFx
+      source:
+        id: Add
+        path: C:\Git\DocFx\DocFx\DocFx\Math.cs
+        startLine: 23
+      syntax:
+        content:
+          CSharp: public static double Add(double a, double b)
+          VB: Public Shared Function Add(a As Double, b As Double) As Double
+        parameters:
+        - id: a
+          type: System.Double
+        - id: b
+          type: System.Double
+        return:
+          type: System.Double
+      overload: DocFx.Math.Add*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  DocFx.Math.Add*:
+    name:
+      CSharp:
+      - id: DocFx.Math.Add*
+        name: Add
+        nameWithType: Math.Add
+        qualifiedName: DocFx.Math.Add
+      VB:
+      - id: DocFx.Math.Add*
+        name: Add
+        nameWithType: Math.Add
+        qualifiedName: DocFx.Math.Add
+    isDefinition: true
+    commentId: Overload:DocFx.Math.Add
+  System.Double:
+    name:
+      CSharp:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+      VB:
+      - id: System.Double
+        name: Double
+        nameWithType: Double
+        qualifiedName: System.Double
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Double
+  DocFx.Math:
+    name:
+      CSharp:
+      - id: DocFx.Math
+        name: Math
+        nameWithType: Math
+        qualifiedName: DocFx.Math
+      VB:
+      - id: DocFx.Math
+        name: Math
+        nameWithType: Math
+        qualifiedName: DocFx.Math
+    isDefinition: true
+    commentId: T:DocFx.Math
+  DocFx:
+    name:
+      CSharp:
+      - name: DocFx
+        nameWithType: DocFx
+        qualifiedName: DocFx
+      VB:
+      - name: DocFx
+        nameWithType: DocFx
+        qualifiedName: DocFx
+    isDefinition: true
+    commentId: N:DocFx

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFx
+  commentId: N:DocFx
+  id: DocFx
+  children:
+  - DocFx.Math
+  langs:
+  - csharp
+  - vb
+  name: DocFx
+  nameWithType: DocFx
+  fullName: DocFx
+  type: Namespace
+  assemblies:
+  - DocFx
+references:
+- uid: DocFx.Math
+  commentId: T:DocFx.Math
+  name: Math
+  nameWithType: Math
+  fullName: DocFx.Math

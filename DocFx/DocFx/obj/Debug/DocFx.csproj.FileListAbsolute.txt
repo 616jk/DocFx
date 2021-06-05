@@ -1,0 +1,5 @@
+C:\Git\DocFx\DocFx\DocFx\bin\Debug\DocFx.dll
+C:\Git\DocFx\DocFx\DocFx\bin\Debug\DocFx.pdb
+C:\Git\DocFx\DocFx\DocFx\obj\Debug\DocFx.csproj.CoreCompileInputs.cache
+C:\Git\DocFx\DocFx\DocFx\obj\Debug\DocFx.dll
+C:\Git\DocFx\DocFx\DocFx\obj\Debug\DocFx.pdb

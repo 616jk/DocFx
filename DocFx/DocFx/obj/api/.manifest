@@ -1,0 +1,6 @@
+{
+  "DocFx": "DocFx.yml",
+  "DocFx.Math": "DocFx.Math.yml",
+  "DocFx.Math.Add(System.Double,System.Double)": "DocFx.Math.yml",
+  "DocFx.Math.Add(System.Int32,System.Int32)": "DocFx.Math.yml"
+}

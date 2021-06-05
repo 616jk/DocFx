@@ -1,0 +1,34 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: DocFx
+  name: DocFx
+  href: api/DocFx.html
+  commentId: N:DocFx
+  fullName: DocFx
+  nameWithType: DocFx
+- uid: DocFx.Math
+  name: Math
+  href: api/DocFx.Math.html
+  commentId: T:DocFx.Math
+  fullName: DocFx.Math
+  nameWithType: Math
+- uid: DocFx.Math.Add(System.Double,System.Double)
+  name: Add(Double, Double)
+  href: api/DocFx.Math.html#DocFx_Math_Add_System_Double_System_Double_
+  commentId: M:DocFx.Math.Add(System.Double,System.Double)
+  fullName: DocFx.Math.Add(System.Double, System.Double)
+  nameWithType: Math.Add(Double, Double)
+- uid: DocFx.Math.Add(System.Int32,System.Int32)
+  name: Add(Int32, Int32)
+  href: api/DocFx.Math.html#DocFx_Math_Add_System_Int32_System_Int32_
+  commentId: M:DocFx.Math.Add(System.Int32,System.Int32)
+  fullName: DocFx.Math.Add(System.Int32, System.Int32)
+  nameWithType: Math.Add(Int32, Int32)
+- uid: DocFx.Math.Add*
+  name: Add
+  href: api/DocFx.Math.html#DocFx_Math_Add_
+  commentId: Overload:DocFx.Math.Add
+  isSpec: "True"
+  fullName: DocFx.Math.Add
+  nameWithType: Math.Add
